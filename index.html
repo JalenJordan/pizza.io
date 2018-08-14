@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pizza Website</title>
+        <link href="css/stylesheet.css" type="text/css" rel="stylesheet">     
+    </head>
+    <body>
+        <header>Welcome  to Jalen's Pizzaeria's</header>
+        <div class="tabs">
+            <a href="#commerical">Go to Commerical.</a>
+            <a href="#review">Give a Feedback.</a>
+            <a href="#choices">ORDER NOW</a>
+        </div> 
+        <br>            
+        <div class="credential">
+                <form action="basic-css.html" method="GET">
+                    <label>Username:</label>
+                    <input type="email" name="Username"placeholder="example@example.com">
+                    <br>
+                    <Label>Password:</Label>
+                    <input type="password" name="Password" placeholder="Enter">
+                    <br>
+                    <button type="submit" name="submit">Login</button>
+                </form>
+        </div>
+        <div class="photos">
+            <img src="css/pizza.png">
+            <img src="css/pizzap.jpg">
+            <img src="css/pizzat.jpg">
+        </div>
+        <div class="prices">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Prices for Pizza size</th>
+                    </tr>
+                </thead>
+                <tbody>
+                        <td>Large</td> 
+                        <td>Medium</td>
+                        <td>Small</td>
+                        <tr>
+                            <td>$12</td>
+                            <td>$9</td>
+                            <td>$5</td>
+                        </tr>         
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Plus Tax</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <br>
+        <div class="sideprices">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sides Price Chart</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <td>Wings</td>
+                    <td>Salad</td>
+                    <td>Ranch</td>
+                    <tr>
+                        <td> $3</td>
+                        <td> $2</td>
+                        <td> $.3</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Plus Tax</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <br>
+        <div id="choices">
+            <form action="basic-css.html" method="GET">
+                <fieldset>
+                        <legend>Make a Selection</legend>
+                            <select name="Toppings" size="3" multiple="multiple">
+                                <option value="cheese" selected="cheese">Cheese</option>
+                                <option value="pepperoni">Pepperoni</option>
+                                <option value="mushroom">Mushroom</option>
+                                <option value="pepper">Pepper</option>
+                                <option value="meat">Meat</option>
+                                <option value="garlic">Garlic</option>
+                                <option value="wings">Wings</option>
+                            </select>
+                            <br>
+                            <br>
+                        <input type="radio" name="type" value="large"/>Large
+                        <input type="radio" name="type" value="meduim"/>Medium
+                        <input type="radio" name="type" value="small"/>Small
+                        <br>
+                        <br>
+                        <input type="checkbox" name="type" value="delivery"/>Delivery
+                        <input type="checkbox" name="type" value="pickup"/>Pickup
+                </fieldset>
+            </form>
+        </div>
+        <br>
+        <div class="button"> 
+            <form action="basic-css.html"method="GET">
+                <button>ORDER NOW</button>
+            </form>
+        </div>
+        <br>
+        <br>
+            <nav><a href="#tabs">Back to the top</a></nav>
+        <br>
+        <div id="commerical">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/SXNrRgaRwr4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <br>
+        <p class="ere">Please give us a Review</p>
+        <div id="review">
+            <fieldset class="feedback">
+                <form action="basic-css.html">
+                    <textarea name="comment" placeholder="Please give feedback"></textarea>
+                    <input type="submit" value="submit">
+                </form>
+            </fieldset>
+        </div>
+        <br>
+        <nav><a href="#tabs">Back to the top</a></nav>
+        <div class="block1">
+            <img src="css/wings.jpg">
+        </div>
+    </body>
+</html>
