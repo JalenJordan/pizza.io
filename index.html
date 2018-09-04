@@ -1,135 +1,190 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Pizza Website</title>
-        <link href="css/stylesheet.css" type="text/css" rel="stylesheet">     
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Pizzaria</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/stylesheet.css">
     </head>
     <body>
-        <header>Welcome  to Jalen's Pizzaeria's</header>
+        <header>Welcome to Jalen's Pizzaeria's</header>
         <div class="tabs">
-            <a href="#commerical">Go to Commerical.</a>
-            <a href="#review">Give a Feedback.</a>
-            <a href="#choices">ORDER NOW</a>
-        </div> 
-        <br>            
+            <div class="container">
+                <div class="row">
+                        <div class="col-sm-12">
+                            <a href="#commerical">Go to Commerical.</a>
+                            <a href="#review">Give a Feedback.</a>
+                            <a href="#choices">ORDER NOW</a>
+                        </div>
+                </div>
+            </div>
+        </div>
         <div class="credential">
-                <form action="basic-css.html" method="GET">
-                    <label>Username:</label>
-                    <input type="email" name="Username"placeholder="example@example.com">
-                    <br>
-                    <Label>Password:</Label>
-                    <input type="password" name="Password" placeholder="Enter">
-                    <br>
-                    <button type="submit" name="submit">Login</button>
-                </form>
+            <div class="container">
+                <div class="row">
+                        <div class="col-sm-3">
+                            <form action="basic-css.html" method="get">
+                                <label>Username:</label>
+                                <input type="email" name="Username" placeholder="example@example.com">
+                                <br>
+                                <label>Password:</label>
+                                <input type="password" name="Password" placeholder="12345">
+                                <br>
+                                <button type="submit" name="submit">Login</button>
+                            </form>
+                        </div>
+                </div>
+            </div>
         </div>
         <div class="photos">
-            <img src="css/pizza.png">
-            <img src="css/pizzap.jpg">
-            <img src="css/pizzat.jpg">
-        </div>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Carousel indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>   
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="css/pizza.png" alt="First Slide">
+                    </div>
+                    <div class="item">
+                        <img src="css/pizzap.jpg" alt="Second Slide">
+                    </div>
+                    <div class="item">
+                        <img src="css/pizza2.jpg" alt="Third Slide">
+                    </div>
+                </div>
+                <!-- Carousel controls -->
+                <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div> 
         <div class="prices">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Prices for Pizza size</th>
-                    </tr>
-                </thead>
-                <tbody>
-                        <td>Large</td> 
-                        <td>Medium</td>
-                        <td>Small</td>
-                        <tr>
-                            <td>$12</td>
-                            <td>$9</td>
-                            <td>$5</td>
-                        </tr>         
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td>Plus Tax</td>
-                    </tr>
-                </tfoot>
-            </table>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Prices for Pizza Size</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <td>Large</td>
+                                <td>Medium</td>
+                                <td>Small</td>
+                                <tr>
+                                    <td>$12</td>
+                                    <td>$9</td>
+                                    <td>$5</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td>Plus Tax</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="sideprices">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Sides Price Chart</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <td>Wings</td>
+                                    <td>Salad</td>
+                                    <td>Ranch</td>
+                                    <tr>
+                                        <td>$3</td>
+                                        <td>$2</td>
+                                        <td>$.3</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td>Plus Tax</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <br>
-        <div class="sideprices">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Sides Price Chart</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <td>Wings</td>
-                    <td>Salad</td>
-                    <td>Ranch</td>
-                    <tr>
-                        <td> $3</td>
-                        <td> $2</td>
-                        <td> $.3</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td>Plus Tax</td>
-                    </tr>
-                </tfoot>
-            </table>
-        </div>
-        <br>
-        <div id="choices">
-            <form action="basic-css.html" method="GET">
-                <fieldset>
-                        <legend>Make a Selection</legend>
-                            <select name="Toppings" size="3" multiple="multiple">
-                                <option value="cheese" selected="cheese">Cheese</option>
-                                <option value="pepperoni">Pepperoni</option>
-                                <option value="mushroom">Mushroom</option>
-                                <option value="pepper">Pepper</option>
-                                <option value="meat">Meat</option>
-                                <option value="garlic">Garlic</option>
-                                <option value="wings">Wings</option>
-                            </select>
-                            <br>
-                            <br>
-                        <input type="radio" name="type" value="large"/>Large
-                        <input type="radio" name="type" value="meduim"/>Medium
-                        <input type="radio" name="type" value="small"/>Small
-                        <br>
-                        <br>
-                        <input type="checkbox" name="type" value="delivery"/>Delivery
-                        <input type="checkbox" name="type" value="pickup"/>Pickup
-                </fieldset>
-            </form>
-        </div>
-        <br>
-        <div class="button"> 
-            <form action="basic-css.html"method="GET">
-                <button>ORDER NOW</button>
-            </form>
-        </div>
-        <br>
-        <br>
+            <div class="choices">
+                <div class="container">
+                    <div class="row">
+                            <div class="col-sm-12">
+                                <form action="basic-css.html" method="get">
+                                    <fieldset>
+                                        <legend>Make a Selection</legend>
+                                        <select name="Toppings" size="3" multiple="multiple">
+                                                <option value="cheese">Cheese</option>
+                                                <option value="pepperoni">Pepperoni</option>
+                                                <option value="mushroom">Mushroom</option>
+                                                <option value="pepper">Pepper</option>
+                                                <option value="meat">Meat</option>
+                                                <option value="garlic">Garlic</option>
+                                                <option value="wings">Wings</option>
+                                        </select>
+                                        <br>
+                                        <br>
+                                        <input type="radio" name="type" value="large"/>Large
+                                        <input type="radio" name="type"/>Medium
+                                        <input type="radio" name="type"/>Small
+                                        <br>
+                                        <br>
+                                        <input type="checkbox" name="type" value="delivery"/>Delivery
+                                        <input type="checkbox" name="type" />Pickup
+                                    </fieldset>
+                                </form>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <div class="container">
+                    <div class="row">
+                            <div class="col-sm-12">
+                                <form action="#" method="get">
+                                    <button>ORDER NOW</button>
+                                </form>
+                            </div>
+                    </div>
+                </div>
+            </div>
             <nav><a href="#tabs">Back to the top</a></nav>
-        <br>
-        <div id="commerical">
-                <iframe width="1280" height="720" src="https://www.youtube.com/embed/SXNrRgaRwr4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-        <br>
-        <p class="ere">Please give us a Review</p>
-        <div id="review">
-            <fieldset class="feedback">
-                <form action="basic-css.html">
-                    <textarea name="comment" placeholder="Please give feedback"></textarea>
-                    <input type="submit" value="submit">
-                </form>
-            </fieldset>
-        </div>
-        <br>
-        <nav><a href="#tabs">Back to the top</a></nav>
-        <div class="block1">
-            <img src="css/wings.jpg">
-        </div>
-    </body>
+            <br>
+            <div  id=commerical>
+                <iframe width="1920" height="720" src="https://www.youtube.com/embed/SXNrRgaRwr4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="review">
+                <div class="container">
+                    <div class="row">
+                            <div class="col-sm-12">
+                                <fieldset>
+                                    <form action="#" method="get">
+                                        <textarea name="comment" placeholder="Please give feedback"></textarea>
+                                        <input type="submit" value="submit">
+                                    </form>
+                                </fieldset>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <nav><a href="#">Back to the top</a></nav>
+     </body>
 </html>
