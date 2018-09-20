@@ -31,7 +31,8 @@ fieldset{
 }
 
 .pic{
-     height: 300px;
+     width: 381px;
+     height: 200px;
 }
 
 @media (min-width: 1200px){
