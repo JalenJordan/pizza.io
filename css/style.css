@@ -10,8 +10,8 @@ body{
      height: 200px;
 }
 .sign{
-     padding-left: 0;
-     padding-right: 0;
+     /* padding-left: 0; */
+     /* padding-right: 0; */
 }
 label{
      margin-bottom: 97px;
@@ -24,12 +24,10 @@ fieldset{
      padding: 10px;
      outline-style: groove;
 }
-button{
-     width: 427px;
-}
+
 .bottompic{
-     padding-left: 0;
-     padding-right: 0;
+     /* padding-left: 0;
+     padding-right: 0; */
 }
 
 .pic{
@@ -62,9 +60,6 @@ button{
           background: red;
           padding: 10px;
           outline-style: groove;
-     }
-     button{
-          width: 427px;
      }
      
      .pic{
