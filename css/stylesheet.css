@@ -67,10 +67,10 @@ tbody{
      color: white;
 }
 .prices table{
-     float: left;
+     margin-left: 95px;
 }
 .sideprices table{
-     float: right;
+     padding-left:0;
 }
 
 legend{
@@ -101,9 +101,115 @@ nav{
 nav a{
      color: white;
 }
-
-
-
 .review{
      text-align: center;
+}
+
+@media(min-width: 768px){
+     body{
+          background-color: red;
+     }
+     
+     header{
+          font-size: 30px;
+          text-align: center;
+          color: white;
+     }
+     
+     a:hover{
+          color: white;
+          text-decoration: none;
+     }
+     
+     button{
+          background-color: red;
+          color: white;
+     }
+     
+     td{
+          width: 70px;
+     }
+     tbody{
+          width: 220px;
+     }
+     
+     .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+          height: 300px;
+     }
+     
+     .tabs{
+          text-align: center;
+     }
+     .tabs li{
+          display: inline;
+     }
+     .tabs a{
+          margin-right: 5%;
+          color: white;
+          text-decoration: none;
+     }
+     .credential{
+          color: white;
+          display: inline;
+     }
+     .credential a{
+          color: white;
+          border: 5px solid red;
+          text-decoration: none;
+     }
+     
+     .carousel{
+          background: red;
+          margin-top: 10px;
+     }
+     
+     .carousel .item{
+          min-height: 100px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+     }
+     
+     .carousel .item img{
+          margin: 0 auto; /* Align slide image horizontally center */
+     }
+     
+     .prices{
+          color: white;
+     }
+     .prices table{
+          float: left;
+     }
+     .sideprices table{
+          float: right;
+     }
+     
+     legend{
+          color: white;
+          text-align: center;
+     }
+     .choices{
+          color: white;
+     }
+     .choices fieldset{
+          text-align: center;
+     }
+     .choices form{
+          text-align: center;
+     }
+     
+     .button{
+          text-align: center;
+     }
+     
+     .button form{
+          text-align: center;
+     }
+     
+     nav{
+          text-align: center;
+     }
+     nav a{
+          color: white;
+     }
+     .review{
+          text-align: center;
+     }
 }

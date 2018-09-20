@@ -5,6 +5,14 @@ body{
      text-align: center;
      color: white;
 }
+.toppic img{
+     width: 400px;
+     height: 200px;
+}
+.sign{
+     padding-left: 0;
+     padding-right: 0;
+}
 label{
      margin-bottom: 97px;
      color: white;
@@ -17,9 +25,49 @@ fieldset{
      outline-style: groove;
 }
 button{
-     width: 362px;
+     width: 427px;
+}
+.bottompic{
+     padding-left: 0;
+     padding-right: 0;
 }
 
 .pic{
      height: 300px;
+}
+
+@media (min-width: 1200px){
+     body{
+          background: red;
+     }
+     .head{
+          text-align: center;
+          color: white;
+     }
+     .toppic img{
+          width: 300px;
+          height: 200px;
+     }
+     .sign{
+          padding-left: 0;
+          padding-right: 0;
+     }
+     label{
+          margin-bottom: 97px;
+          color: white;
+     }
+     fieldset{
+          animation: 5s infinite;
+          border: 4px solid white;
+          background: red;
+          padding: 10px;
+          outline-style: groove;
+     }
+     button{
+          width: 427px;
+     }
+     
+     .pic{
+          height: 300px;
+     }
 }
