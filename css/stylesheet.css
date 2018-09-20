@@ -18,6 +18,17 @@ button{
      color: white;
 }
 
+td{
+     width: 70px;
+}
+tbody{
+     width: 220px;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+     height: 300px;
+}
+
 .tabs{
      text-align: center;
 }
@@ -32,6 +43,11 @@ button{
 .credential{
      color: white;
      display: inline;
+}
+.credential a{
+     color: white;
+     border: 5px solid red;
+     text-decoration: none;
 }
 
 .carousel{
@@ -85,6 +101,8 @@ nav{
 nav a{
      color: white;
 }
+
+
 
 .review{
      text-align: center;

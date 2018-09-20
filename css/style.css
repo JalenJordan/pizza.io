@@ -1,0 +1,25 @@
+body{
+     background: red;
+}
+.head{
+     text-align: center;
+     color: white;
+}
+label{
+     margin-bottom: 97px;
+     color: white;
+}
+fieldset{
+     animation: 5s infinite;
+     border: 4px solid white;
+     background: red;
+     padding: 10px;
+     outline-style: groove;
+}
+button{
+     width: 362px;
+}
+
+.pic{
+     height: 300px;
+}
