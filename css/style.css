@@ -9,10 +9,7 @@ body{
      width: 400px;
      height: 200px;
 }
-.sign{
-     /* padding-left: 0; */
-     /* padding-right: 0; */
-}
+
 label{
      margin-bottom: 97px;
      color: white;
@@ -25,10 +22,7 @@ fieldset{
      outline-style: groove;
 }
 
-.bottompic{
-     /* padding-left: 0;
-     padding-right: 0; */
-}
+
 
 .pic{
      width: 381px;
